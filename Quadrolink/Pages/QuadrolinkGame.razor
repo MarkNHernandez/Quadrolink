@@ -1,0 +1,26 @@
+@page "/Game"
+@inherits QuadrolinkGameBase
+<div class="card" style="height: 90vh; width: 100%;">
+    <div class="card-body d-flex flex-column p-2" style="height: 70vh; width: 50%; background-color: white; margin: auto;">
+        <div class="d-flex flex-row ">
+            <div class="card d-flex flex-row flex-fill justify-content-around" style="background-color: transparent; border: transparent; height: 10vh;">
+                @foreach (var button in GameButtons)
+                {
+                    <a class="CoinButton" style="text-decoration: none; background-color: @button.Fill; margin: auto;" @onclick="_ => DropCoin(button.ColumnIndex, button.Fill)"></a>
+                }
+            </div>
+        </div>
+        <div class="card d-flex flex-row flex-fill align-items-stretch" style="background-color: #0a58ca;">
+            @foreach (var column in GameColumns)
+            {
+                <div class="d-flex flex-column flex-fill gap-2">
+
+                    @foreach (var spot in column.Spots)
+                    {
+                        <div class="Coin" style="background-color: @spot.Fill; color: white;">@spot.RowIndex</div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>

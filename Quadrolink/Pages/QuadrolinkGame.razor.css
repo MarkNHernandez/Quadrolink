@@ -1,0 +1,18 @@
+
+.CoinButton{
+    opacity: 0%;
+    height: 9vh;
+    width: 5vw;
+    border-radius: 80%;
+}
+
+.CoinButton:hover  {
+    opacity: 100%;
+}
+
+.Coin{
+    background-color: black;
+    height: 9vh;
+    width: 5vw;
+    border-radius: 80%;
+}
