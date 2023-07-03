@@ -13,77 +13,77 @@ build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Quadrolink
 build_property.RootNamespace = Quadrolink
-build_property.ProjectDir = d:\Code\Quadrolink\Quadrolink\
+build_property.ProjectDir = D:\Code\Quadrolink\Quadrolink\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = d:\Code\Quadrolink\Quadrolink
+build_property.MSBuildProjectDirectory = D:\Code\Quadrolink\Quadrolink
 build_property._RazorSourceGeneratorDebug = 
 
-[d:/Code/Quadrolink/Quadrolink/App.xaml]
+[D:/Code/Quadrolink/Quadrolink/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quadrolink.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/MainPage.xaml]
+[D:/Code/Quadrolink/Quadrolink/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Quadrolink.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/Main.razor]
+[D:/Code/Quadrolink/Quadrolink/Main.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = TWFpbi5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/Pages/Index.razor]
+[D:/Code/Quadrolink/Quadrolink/Pages/Index.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/Pages/_Imports.razor]
+[D:/Code/Quadrolink/Quadrolink/Pages/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/Shared/SurveyPrompt.razor]
+[D:/Code/Quadrolink/Quadrolink/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/_Imports.razor]
+[D:/Code/Quadrolink/Quadrolink/_Imports.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = 
 
-[d:/Code/Quadrolink/Quadrolink/Pages/QuadrolinkGame.razor]
+[D:/Code/Quadrolink/Quadrolink/Pages/QuadrolinkGame.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVhZHJvbGlua0dhbWUucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-lv7naj6szq
 
-[d:/Code/Quadrolink/Quadrolink/Shared/MainLayout.razor]
+[D:/Code/Quadrolink/Quadrolink/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
 build_metadata.AdditionalFiles.RelativePath = 
 build_metadata.AdditionalFiles.CssScope = b-2b5vi8h817
 
-[d:/Code/Quadrolink/Quadrolink/Shared/NavMenu.razor]
+[D:/Code/Quadrolink/Quadrolink/Shared/NavMenu.razor]
 build_metadata.AdditionalFiles.GenKind = 
 build_metadata.AdditionalFiles.ManifestResourceName = 
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5hdk1lbnUucmF6b3I=

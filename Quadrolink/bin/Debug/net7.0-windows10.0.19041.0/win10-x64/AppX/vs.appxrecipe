@@ -29,13 +29,13 @@
     <AppXManifest Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-06-23T20:28:59.730</Modified>
+      <Modified>2023-07-03T21:15:27.624</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-06-23T20:28:59.346</Modified>
+      <Modified>2023-07-03T21:15:27.219</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.runtimeconfig.json">
       <PackagePath>Quadrolink.runtimeconfig.json</PackagePath>
@@ -43,11 +43,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.dll">
       <PackagePath>Quadrolink.dll</PackagePath>
-      <Modified>2023-06-23T20:28:58.980</Modified>
+      <Modified>2023-07-03T21:15:26.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Quadrolink.exe</PackagePath>
-      <Modified>2023-06-23T20:28:59.000</Modified>
+      <Modified>2023-07-03T21:15:26.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1003,7 +1003,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.deps.json">
       <PackagePath>Quadrolink.deps.json</PackagePath>
-      <Modified>2023-06-23T20:28:59.648</Modified>
+      <Modified>2023-07-03T21:15:27.534</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

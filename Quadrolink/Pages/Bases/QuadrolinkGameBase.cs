@@ -19,7 +19,7 @@ public class QuadrolinkGameBase : ComponentBase
     private string color { get; set; } = TurnColors.RedTurn;
     protected List<Spot> GameSpots { get; set; } = new();
     protected List<GameButton> GameButtons { get; set; } = new();
-    protected List<GameColumn> GameColumns { get; set; } = new();
+    protected List<List<Spot>> GameColumns { get; set; } = new();
     protected int Rows { get; set; } = 6;
     protected int Columns { get; set; } = 7;
     
@@ -30,14 +30,13 @@ public class QuadrolinkGameBase : ComponentBase
 
     protected async Task DropCoin(int columnIndex, string coinColor)
     {
-        var column = GameColumns.First(s => s.ColumnIndex == columnIndex);
-
-        if (column.Spots.All(s => s.IsFilled))
+        var column = GameColumns.First(col => col.Any(s => s.ColumnIndex == columnIndex));
+        if (column.All(s => s.IsFilled))
         {
             return;
         }
 
-        var spot = column.Spots.OrderByDescending(s => s.RowIndex).First(p => p.IsFilled == false);
+        var spot = column.OrderBy(s => s.RowIndex).First(p => p.IsFilled == false);
         spot.IsFilled = true;
         spot.Fill = coinColor;
         foreach (var button in GameButtons)
@@ -60,9 +59,9 @@ public class QuadrolinkGameBase : ComponentBase
     private void FillBoard()
     {
         var position = 1;
-        for (var column = 1; column <= Columns; column++)
+        for (var column = Columns; column >= 1; column--)
         {
-            for (var row = 1; row <= Rows; row++)
+            for (var row = Rows; row >= 1; row--)
             {
                 var newSpot = new Spot
                 {
@@ -79,11 +78,10 @@ public class QuadrolinkGameBase : ComponentBase
             {
                 ColumnIndex = column
             };
-            
+            var spotsInColumn = GameSpots.FindAll(s => s.ColumnIndex == column);
+            GameColumns.Add(spotsInColumn);
             GameButtons.Add(newButton);
         }
-
-        GameSpots = GameSpots.OrderBy(s => s.BoardPosition).ToList();
     }
 
     #endregion

@@ -10,17 +10,25 @@
                 }
             </div>
         </div>
-        <div class="card d-flex flex-row flex-fill align-items-stretch" style="background-color: #0a58ca;">
+        
+        <div class="container gap-3" style="background-color: blue;">
+
+            <div class="row align-items-center">
+                
             @foreach (var column in GameColumns)
             {
-                <div class="d-flex flex-column flex-fill gap-2">
-
-                    @foreach (var spot in column.Spots)
+                <div class="col align-items-center">
+                    @foreach (var spot in column)
                     {
-                        <div class="Coin" style="background-color: @spot.Fill; color: white;">@spot.RowIndex</div>
+                        <div class="row">
+                            
+                        <div class="Coin" style="background-color: @spot.Fill; color: white;">@spot.BoardPosition</div>
+                        </div>
                     }
                 </div>
             }
+            </div>
+
         </div>
     </div>
 </div>
