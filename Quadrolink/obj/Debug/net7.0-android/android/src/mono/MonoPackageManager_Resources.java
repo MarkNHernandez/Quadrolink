@@ -13,6 +13,7 @@ public class MonoPackageManager_Resources {
 		"Blazorise.Icons.FontAwesome.dll",
 		"Blazorise.Licensing.dll",
 		"GoogleGson.dll",
+		"Humanizer.dll",
 		"Microsoft.AspNetCore.Authorization.dll",
 		"Microsoft.AspNetCore.Components.dll",
 		"Microsoft.AspNetCore.Components.Forms.dll",

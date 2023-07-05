@@ -4,7 +4,8 @@ namespace Quadrolink.Models;
 
 public class GameButton
 {
-    public bool TurnStatus { get; set; }
+    //public bool TurnStatus { get; set; }
     public int ColumnIndex { get; set; }
-    public string Fill => TurnStatus ? "#FFFF00" : "#FF0000";
+    public string Fill { get; set; }
+    public TurnStatus TurnStatus { get; set; }
 }

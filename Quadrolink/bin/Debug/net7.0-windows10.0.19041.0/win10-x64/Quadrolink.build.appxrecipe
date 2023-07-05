@@ -616,6 +616,9 @@
     <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\blazorise.licensing\1.1.0\lib\net7.0\Blazorise.Licensing.dll">
       <PackagePath>Blazorise.Licensing.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\microsoft.aspnetcore.authorization\7.0.5\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
     </AppxPackagedFile>

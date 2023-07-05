@@ -1,32 +1,43 @@
 @page "/Game"
 @inherits QuadrolinkGameBase
-<div class="card" style="height: 90vh; width: 100%;">
-    <div class="card-body d-flex flex-column p-2" style="height: 70vh; width: 50%; background-color: white; margin: auto;">
-        <div class="d-flex flex-row ">
-            <div class="card d-flex flex-row flex-fill justify-content-around" style="background-color: transparent; border: transparent; height: 10vh;">
-                @foreach (var button in GameButtons)
+<div class="card" style="height: 90vh; width: 100%; background-color: transparent;">
+    <div class="card-body d-flex flex-column p-2" style="height: 70vh; width: 66%; background-color: transparent; margin: auto;">
+        <div class="d-flex flex-row">
+            <div class="card d-flex flex-row flex-fill justify-content-around" style="background-color: transparent; border: transparent; height: 15vh;">
+                @if (GameOver)
                 {
-                    <a class="CoinButton" style="text-decoration: none; background-color: @button.Fill; margin: auto;" @onclick="_ => DropCoin(button.ColumnIndex, button.Fill)"></a>
+                    <div class="d-flex flex-column flex-fill mb-2">
+                        <div class="d-flex flex-row flex-fill justify-content-center">
+                            <h1 class="GameStatus">@GameStatus</h1>
+                        </div>
+                        <div class="d-flex flex-row flex-fill justify-content-center">
+                            <button class="btn btn-outline-success rounded-3" @onclick="ResetGame">Reset Game</button>
+                        </div>
+                    </div>
+                }
+                @if (!GameOver)
+                {
+                    foreach (var button in GameButtons)
+                    {
+                        <a class="CoinButton" style="text-decoration: none; background-color: @button.Fill; margin: auto;" @onclick="_ => DropCoin(button.ColumnIndex, button.Fill)"></a>
+                    }
                 }
             </div>
         </div>
-        
-        <div class="container gap-3" style="background-color: blue;">
 
-            <div class="row align-items-center">
-                
-            @foreach (var column in GameColumns)
-            {
-                <div class="col align-items-center">
-                    @foreach (var spot in column)
-                    {
-                        <div class="row">
-                            
-                        <div class="Coin" style="background-color: @spot.Fill; color: white;">@spot.BoardPosition</div>
-                        </div>
-                    }
-                </div>
-            }
+        <div class="container" style="background-color: blue; height: 65vh;">
+
+            <div class="d-flex flex-row justify-content-around" style="height: 100%;">
+
+                @foreach (var column in GameColumns)
+                {
+                    <div class="d-flex flex-column justify-content-around">
+                        @foreach (var spot in column)
+                        {
+                            <div class="Coin" style="background-color: @spot.Fill;"></div>
+                        }
+                    </div>
+                }
             </div>
 
         </div>

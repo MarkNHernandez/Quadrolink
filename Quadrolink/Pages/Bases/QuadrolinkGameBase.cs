@@ -1,3 +1,4 @@
+using Humanizer;
 using Microsoft.AspNetCore.Components;
 using Quadrolink.Models;
 using Quadrolink.Pages.Constants;
@@ -6,30 +7,25 @@ namespace Quadrolink.Pages.Bases;
 
 public class QuadrolinkGameBase : ComponentBase
 {
-    #region Parameters
-
-    #endregion
-
-    #region Injections
-
-    #endregion
 
     #region Properties
-
-    private string color { get; set; } = TurnColors.RedTurn;
-    protected List<Spot> GameSpots { get; set; } = new();
+    protected bool GameOver { get; private set; }
+    private int TurnCount { get; set; } = 1;
+    private int Rows { get; set; } = 6;
+    private int Columns { get; set; } = 7;
+    protected string GameStatus { get; private set; } = "";
+    private List<Spot> GameSpots { get; set; } = new();
     protected List<GameButton> GameButtons { get; set; } = new();
     protected List<List<Spot>> GameColumns { get; set; } = new();
-    protected int Rows { get; set; } = 6;
-    protected int Columns { get; set; } = 7;
-    
-    
+    private TurnStatus TurnStatus { get; set; } = TurnStatus.PlayerOne;
+
     #endregion
 
     #region Data Methods
 
     protected async Task DropCoin(int columnIndex, string coinColor)
     {
+        TurnCount++;
         var column = GameColumns.First(col => col.Any(s => s.ColumnIndex == columnIndex));
         if (column.All(s => s.IsFilled))
         {
@@ -39,24 +35,114 @@ public class QuadrolinkGameBase : ComponentBase
         var spot = column.OrderBy(s => s.RowIndex).First(p => p.IsFilled == false);
         spot.IsFilled = true;
         spot.Fill = coinColor;
-        foreach (var button in GameButtons)
-        {
-            button.TurnStatus = !button.TurnStatus;
-        }
+        spot.ClaimedBy = TurnStatus;
+        await CheckWinner(spot.ColumnIndex, spot.RowIndex);
+        ChangeButtonColors();
         await InvokeAsync(StateHasChanged);
     }
 
-    protected async Task CheckWinner(int columnIndex, int rowIndex)
+    private void ChangeButtonColors()
     {
-        
+        switch (TurnStatus)
+        {
+            case TurnStatus.PlayerOne:
+                foreach (var button in GameButtons)
+                {
+                    button.Fill = TurnColors.PlayerTwo;
+                }
 
+                TurnStatus = TurnStatus.PlayerTwo;
+                break;
+            case TurnStatus.PlayerTwo:
+                foreach (var button in GameButtons)
+                {
+                    button.Fill = TurnColors.PlayerOne;
+                }
+
+                TurnStatus = TurnStatus.PlayerOne;
+                break;
+            case TurnStatus.Neutral:
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+    }
+
+    private async Task CheckWinner(int columnIndex, int rowIndex)
+    {
+        if (TurnCount < 7)
+            return;
+
+        if (GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex     && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex - 1 && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex - 2 && s.ClaimedBy == TurnStatus) &&
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex - 3 && s.ClaimedBy == TurnStatus))
+        {
+            GameStatus = $"{TurnStatus.Humanize(LetterCasing.Title)} Wins!";
+            GameOver = true;
+            return;
+        }
+        if (GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex     && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex + 1 && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex + 2 && s.ClaimedBy == TurnStatus) &&
+            GameSpots.Any(s => s.RowIndex == rowIndex && s.ColumnIndex == columnIndex + 3 && s.ClaimedBy == TurnStatus))
+        {
+            GameStatus = $"{TurnStatus.Humanize(LetterCasing.Title)} Wins!";
+            GameOver = true;
+            return;
+        }
+        
+        if (GameSpots.Any(s => s.RowIndex == rowIndex     && s.ColumnIndex == columnIndex && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 1 && s.ColumnIndex == columnIndex && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 2 && s.ColumnIndex == columnIndex && s.ClaimedBy == TurnStatus) &&
+            GameSpots.Any(s => s.RowIndex == rowIndex - 3 && s.ColumnIndex == columnIndex && s.ClaimedBy == TurnStatus))
+        {
+            GameStatus = $"{TurnStatus.Humanize(LetterCasing.Title)} Wins!";
+            GameOver = true;
+            return;
+        }
+
+        if (GameSpots.Any(s => s.RowIndex == rowIndex     && s.ColumnIndex == columnIndex     && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 1 && s.ColumnIndex == columnIndex - 1 && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 2 && s.ColumnIndex == columnIndex - 2 && s.ClaimedBy == TurnStatus) &&
+            GameSpots.Any(s => s.RowIndex == rowIndex - 3 && s.ColumnIndex == columnIndex - 3 && s.ClaimedBy == TurnStatus))
+        {
+            GameStatus = $"{TurnStatus.Humanize(LetterCasing.Title)} Wins!";
+            GameOver = true;
+            return;
+        }
+        if (GameSpots.Any(s => s.RowIndex == rowIndex     && s.ColumnIndex == columnIndex     && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 1 && s.ColumnIndex == columnIndex + 1 && s.ClaimedBy == TurnStatus) && 
+            GameSpots.Any(s => s.RowIndex == rowIndex - 2 && s.ColumnIndex == columnIndex + 2 && s.ClaimedBy == TurnStatus) &&
+            GameSpots.Any(s => s.RowIndex == rowIndex - 3 && s.ColumnIndex == columnIndex + 3 && s.ClaimedBy == TurnStatus))
+        {
+            GameStatus = $"{TurnStatus.Humanize(LetterCasing.Title)} Wins!";
+            GameOver = true;
+            return;
+        }
+
+        await InvokeAsync(StateHasChanged);
+
+    }
+
+    protected async Task ResetGame()
+    {
+        GameSpots.Clear();
+        GameColumns.Clear();
+        GameButtons.Clear();
+        TurnStatus = TurnStatus.PlayerOne;
+        TurnCount = 1;
+        GameStatus = string.Empty;
+        GameOver = false;
+        InitializeBoard();
+        await InvokeAsync(StateHasChanged);
     }
 
     #endregion
 
     #region Setup
 
-    private void FillBoard()
+    private void InitializeBoard()
     {
         var position = 1;
         for (var column = Columns; column >= 1; column--)
@@ -68,7 +154,8 @@ public class QuadrolinkGameBase : ComponentBase
                     BoardPosition = position,
                     RowIndex = row,
                     ColumnIndex = column,
-                    Fill = "#000000"
+                    ClaimedBy = TurnStatus.Neutral,
+                    Fill = TurnColors.Neutral
                 };
                 GameSpots.Add(newSpot);
                 position++;
@@ -76,8 +163,10 @@ public class QuadrolinkGameBase : ComponentBase
 
             var newButton = new GameButton
             {
-                ColumnIndex = column
+                ColumnIndex = column,
+                Fill = TurnColors.PlayerOne
             };
+
             var spotsInColumn = GameSpots.FindAll(s => s.ColumnIndex == column);
             GameColumns.Add(spotsInColumn);
             GameButtons.Add(newButton);
@@ -90,12 +179,10 @@ public class QuadrolinkGameBase : ComponentBase
 
     protected override async Task OnInitializedAsync()
     {
-        FillBoard();
+        InitializeBoard();
         await InvokeAsync(StateHasChanged);
     }
-    #endregion
-
-    #region Finalizers
 
     #endregion
+    
 }

@@ -10,6 +10,7 @@ D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Bla
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Bootstrap.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Icons.FontAwesome.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Blazorise.Licensing.dll
+D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Humanizer.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Authorization.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Components.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -252,6 +253,7 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\sta
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\staticwebassets.pack.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\staticwebassets.build.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\staticwebassets.development.json
+D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Quadrolink.styles.css
@@ -354,4 +356,3 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qua
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\qualifiers.txt.intermediate
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\MultipleQualifiersPerDimensionFound.txt
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
-D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css

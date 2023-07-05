@@ -1,3 +1,5 @@
+using Quadrolink.Pages.Constants;
+
 namespace Quadrolink.Models;
 
 public class Spot
@@ -6,6 +8,7 @@ public class Spot
     public int RowIndex { get; set; }
     public int ColumnIndex { get; set; }
     public int BoardPosition { get; set; }
+    public TurnStatus ClaimedBy { get; set; }
     public string Fill { get; set; }
-    
+
 }

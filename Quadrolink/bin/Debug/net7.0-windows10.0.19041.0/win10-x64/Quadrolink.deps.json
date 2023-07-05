@@ -12,6 +12,7 @@
           "Blazorise": "1.2.3",
           "Blazorise.Bootstrap": "1.2.3",
           "Blazorise.Icons.FontAwesome": "1.2.3",
+          "Humanizer.Core": "2.14.1",
           "Microsoft.AspNetCore.Components.WebView.Maui": "7.0.86",
           "Microsoft.Extensions.Configuration": "7.0.0",
           "Microsoft.Extensions.DependencyInjection": "7.0.0",
@@ -848,6 +849,14 @@
         }
       },
       "bootstrap/5.3.0": {},
+      "Humanizer.Core/2.14.1": {
+        "runtime": {
+          "lib/net6.0/Humanizer.dll": {
+            "assemblyVersion": "2.14.0.0",
+            "fileVersion": "2.14.1.48190"
+          }
+        }
+      },
       "Microsoft.AspNetCore.Authorization/7.0.5": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "7.0.5",
@@ -1325,6 +1334,13 @@
       "sha512": "sha512-Glct0CeNsN5ETcAmV4IsIGa8VEvnWphT4Wb+IaF7/4KAMaZjxpr0eZ8Uf6H/gWKPcUB2p235/3alyhmYBbU6FQ==",
       "path": "bootstrap/5.3.0",
       "hashPath": "bootstrap.5.3.0.nupkg.sha512"
+    },
+    "Humanizer.Core/2.14.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lQKvtaTDOXnoVJ20ibTuSIOf2i0uO0MPbDhd1jm238I+U/2ZnRENj0cktKZhtchBMtCUSRQ5v4xBCUbKNmyVMw==",
+      "path": "humanizer.core/2.14.1",
+      "hashPath": "humanizer.core.2.14.1.nupkg.sha512"
     },
     "Microsoft.AspNetCore.Authorization/7.0.5": {
       "type": "package",

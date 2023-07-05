@@ -5,6 +5,7 @@ D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Blazorise.dl
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Blazorise.Bootstrap.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Blazorise.Icons.FontAwesome.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Blazorise.Licensing.dll
+D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Humanizer.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AspNetCore.Authorization.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.dll
 D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-ios\iossimulator-x64\Microsoft.AspNetCore.Components.Forms.dll
@@ -245,6 +246,7 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\staticwebass
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\staticwebassets.pack.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\staticwebassets.build.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\staticwebassets.development.json
+D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\scopedcss\bundle\Quadrolink.styles.css
@@ -300,4 +302,3 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\refint\Quadr
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\Quadrolink.pdb
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\Quadrolink.genruntimeconfig.cache
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\ref\Quadrolink.dll
-D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-ios\iossimulator-x64\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css

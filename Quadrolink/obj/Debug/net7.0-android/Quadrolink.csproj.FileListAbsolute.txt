@@ -16,6 +16,7 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\staticwebassets\msbuild.b
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\staticwebassets.pack.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\staticwebassets.build.json
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\staticwebassets.development.json
+D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\scopedcss\Shared\MainLayout.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\scopedcss\Shared\NavMenu.razor.rz.scp.css
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\scopedcss\bundle\Quadrolink.styles.css
@@ -161,6 +162,7 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Blazorise.
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Blazorise.Icons.FontAwesome.dll
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Blazorise.Licensing.dll
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\GoogleGson.dll
+D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Humanizer.dll
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Java.Interop.dll
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Java.Interop.pdb
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\android\assets\Microsoft.AspNetCore.Authorization.dll
@@ -1072,4 +1074,3 @@ D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\stamp\_ConvertResourcesCa
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\stamp\_GenerateJavaStubs.stamp
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\stamp\_GeneratePackageManagerJava.stamp
 D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\stamp\_ResolveLibraryProjectImports.stamp
-D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-android\scopedcss\Pages\QuadrolinkGame.razor.rz.scp.css

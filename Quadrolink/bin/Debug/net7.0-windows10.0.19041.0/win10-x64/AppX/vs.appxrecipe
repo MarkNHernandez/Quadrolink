@@ -29,25 +29,25 @@
     <AppXManifest Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-07-03T21:15:27.624</Modified>
+      <Modified>2023-07-05T19:27:46.446</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-07-03T21:15:27.219</Modified>
+      <Modified>2023-07-05T19:27:46.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.runtimeconfig.json">
       <PackagePath>Quadrolink.runtimeconfig.json</PackagePath>
-      <Modified>2023-06-22T20:53:05.292</Modified>
+      <Modified>2023-07-05T17:43:45.882</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.dll">
       <PackagePath>Quadrolink.dll</PackagePath>
-      <Modified>2023-07-03T21:15:26.831</Modified>
+      <Modified>2023-07-05T19:27:45.638</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Quadrolink.exe</PackagePath>
-      <Modified>2023-07-03T21:15:26.852</Modified>
+      <Modified>2023-07-05T19:27:45.658</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.7\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -821,6 +821,10 @@
       <PackagePath>Blazorise.Licensing.dll</PackagePath>
       <Modified>2023-01-26T11:04:28.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\humanizer.core\2.14.1\lib\net6.0\Humanizer.dll">
+      <PackagePath>Humanizer.dll</PackagePath>
+      <Modified>2022-01-29T15:04:04.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\MHernandez\.nuget\packages\microsoft.aspnetcore.authorization\7.0.5\lib\net7.0\Microsoft.AspNetCore.Authorization.dll">
       <PackagePath>Microsoft.AspNetCore.Authorization.dll</PackagePath>
       <Modified>2023-03-25T02:40:46.000</Modified>
@@ -1003,7 +1007,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Quadrolink.deps.json">
       <PackagePath>Quadrolink.deps.json</PackagePath>
-      <Modified>2023-07-03T21:15:27.534</Modified>
+      <Modified>2023-07-05T19:27:46.355</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -1351,15 +1355,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\bundle\Quadrolink.styles.css">
       <PackagePath>wwwroot\Quadrolink.styles.css</PackagePath>
-      <Modified>2023-06-23T18:35:01.186</Modified>
+      <Modified>2023-07-05T19:19:49.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\scopedcss\projectbundle\Quadrolink.bundle.scp.css">
       <PackagePath>wwwroot\Quadrolink.bundle.scp.css</PackagePath>
-      <Modified>2023-06-23T18:35:01.188</Modified>
+      <Modified>2023-07-05T19:19:49.386</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\wwwroot\css\app.css">
       <PackagePath>wwwroot\css\app.css</PackagePath>
-      <Modified>2023-06-22T20:05:07.833</Modified>
+      <Modified>2023-07-05T18:55:11.592</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\wwwroot\css\bootstrap\bootstrap.min.css">
       <PackagePath>wwwroot\css\bootstrap\bootstrap.min.css</PackagePath>
@@ -1415,23 +1419,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.752</Modified>
+      <Modified>2023-07-05T17:43:44.643</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.770</Modified>
+      <Modified>2023-07-05T17:43:44.655</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.789</Modified>
+      <Modified>2023-07-05T17:43:44.671</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.817</Modified>
+      <Modified>2023-07-05T17:43:44.696</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.944</Modified>
+      <Modified>2023-07-05T17:43:44.788</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -1439,211 +1443,211 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2023-06-22T20:53:03.989</Modified>
+      <Modified>2023-07-05T17:43:44.821</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.243</Modified>
+      <Modified>2023-07-05T17:43:45.033</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.254</Modified>
+      <Modified>2023-07-05T17:43:45.041</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.272</Modified>
+      <Modified>2023-07-05T17:43:45.049</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.290</Modified>
+      <Modified>2023-07-05T17:43:45.062</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.353</Modified>
+      <Modified>2023-07-05T17:43:45.110</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.066</Modified>
+      <Modified>2023-07-05T17:43:44.888</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.070</Modified>
+      <Modified>2023-07-05T17:43:44.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.085</Modified>
+      <Modified>2023-07-05T17:43:44.906</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.074</Modified>
+      <Modified>2023-07-05T17:43:44.896</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.079</Modified>
+      <Modified>2023-07-05T17:43:44.901</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.042</Modified>
+      <Modified>2023-07-05T17:43:44.868</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.047</Modified>
+      <Modified>2023-07-05T17:43:44.871</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.062</Modified>
+      <Modified>2023-07-05T17:43:44.885</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.051</Modified>
+      <Modified>2023-07-05T17:43:44.875</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.055</Modified>
+      <Modified>2023-07-05T17:43:44.879</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.000</Modified>
+      <Modified>2023-07-05T17:43:44.831</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.003</Modified>
+      <Modified>2023-07-05T17:43:44.835</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.007</Modified>
+      <Modified>2023-07-05T17:43:44.838</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.010</Modified>
+      <Modified>2023-07-05T17:43:44.842</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.016</Modified>
+      <Modified>2023-07-05T17:43:44.845</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.019</Modified>
+      <Modified>2023-07-05T17:43:44.848</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.023</Modified>
+      <Modified>2023-07-05T17:43:44.852</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.039</Modified>
+      <Modified>2023-07-05T17:43:44.865</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.028</Modified>
+      <Modified>2023-07-05T17:43:44.856</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.033</Modified>
+      <Modified>2023-07-05T17:43:44.860</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.133</Modified>
+      <Modified>2023-07-05T17:43:44.945</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.138</Modified>
+      <Modified>2023-07-05T17:43:44.949</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.142</Modified>
+      <Modified>2023-07-05T17:43:44.955</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.152</Modified>
+      <Modified>2023-07-05T17:43:44.962</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.170</Modified>
+      <Modified>2023-07-05T17:43:44.973</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.109</Modified>
+      <Modified>2023-07-05T17:43:44.926</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.113</Modified>
+      <Modified>2023-07-05T17:43:44.929</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.117</Modified>
+      <Modified>2023-07-05T17:43:44.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.121</Modified>
+      <Modified>2023-07-05T17:43:44.936</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.129</Modified>
+      <Modified>2023-07-05T17:43:44.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.088</Modified>
+      <Modified>2023-07-05T17:43:44.909</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.092</Modified>
+      <Modified>2023-07-05T17:43:44.912</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.095</Modified>
+      <Modified>2023-07-05T17:43:44.915</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.100</Modified>
+      <Modified>2023-07-05T17:43:44.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.106</Modified>
+      <Modified>2023-07-05T17:43:44.923</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.176</Modified>
+      <Modified>2023-07-05T17:43:44.978</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.181</Modified>
+      <Modified>2023-07-05T17:43:44.983</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.191</Modified>
+      <Modified>2023-07-05T17:43:44.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.203</Modified>
+      <Modified>2023-07-05T17:43:44.999</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.235</Modified>
+      <Modified>2023-07-05T17:43:45.026</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2023-06-22T20:53:03.999</Modified>
+      <Modified>2023-07-05T17:43:44.827</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.009</Modified>
+      <Modified>2023-07-05T17:43:44.836</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.021</Modified>
+      <Modified>2023-07-05T17:43:44.847</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.040</Modified>
+      <Modified>2023-07-05T17:43:44.863</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2023-06-22T20:53:04.084</Modified>
+      <Modified>2023-07-05T17:43:44.897</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\Pages\QuadrolinkGame.razor.css">
       <PackagePath>Pages\QuadrolinkGame.razor.css</PackagePath>
-      <Modified>2023-06-23T18:34:58.469</Modified>
+      <Modified>2023-07-05T19:19:46.675</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Code\Quadrolink\Quadrolink\Shared\MainLayout.razor.css">
       <PackagePath>Shared\MainLayout.razor.css</PackagePath>
